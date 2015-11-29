@@ -1,0 +1,9 @@
+<h3>{{ singleWine.name }}</h3>
+
+<p>This wine is made by the company {{ singleWine.maker}}</p>
+<img src= "{{ singleWine.photo }}" >
+<p>{{ singleWine.info}}</p>
+
+
+<a href="#/edit/{{ singleWine.objectId }}">Edit Me</a> | 
+<a href="#" ng-click="deleteMe(singleWine)">Delete Me</a>
