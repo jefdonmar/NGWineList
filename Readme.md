@@ -2,7 +2,7 @@
 
 In this repository, I build a basic CRUD application using AngularJS to showcase some of the wines that I like/ will want to try in the near future.
 
-Here is a link to my deployment: 
+Here is a link to my deployment: bite-sized-bubble.surge.sh
 
 I hope you enjoy! 
 
