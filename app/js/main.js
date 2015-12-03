@@ -45,15 +45,16 @@ module.exports = exports['default'];
 Object.defineProperty(exports, '__esModule', {
   value: true
 });
-var AddController = function AddController($scope, WineService) {
+var AddController = function AddController($scope, $state, $stateParams, WineService) {
 
   $scope.addWine = function (obj) {
     WineService.addWine(obj).then(function (res) {
       $scope.wine = {};
+      $state.go('root.list');
     });
   };
 };
-AddController.$inject = ['$scope', 'WineService'];
+AddController.$inject = ['$scope', '$state', '$stateParams', 'WineService'];
 exports['default'] = AddController;
 module.exports = exports['default'];
 
