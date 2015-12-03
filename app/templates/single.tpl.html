@@ -4,6 +4,7 @@
 <img src= "{{ singleWine.photo }}" >
 <p>{{ singleWine.info}}</p>
 
-
-<a href="#/edit/{{ singleWine.objectId }}">Edit Me</a> | 
-<a href="#" ng-click="deleteMe(singleWine)">Delete Me</a>
+<div class="button">
+<a href="#/edit/{{ singleWine.objectId }}" class="edit">Edit Me</a> | 
+<a href="#" ng-click="deleteMe(singleWine)" class="delete">Delete Me</a>
+</div>

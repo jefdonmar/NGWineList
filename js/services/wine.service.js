@@ -32,7 +32,7 @@ let WineService = function($http, PARSE) {
     this.name = obj.name;
     this.maker = obj.maker;
     this.photo = obj.photo;
-    this.hasTried = false;
+    this.info = obj.info;
   };
 
   this.addWine = function (obj) {

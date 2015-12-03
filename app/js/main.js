@@ -89,7 +89,7 @@ Object.defineProperty(exports, '__esModule', {
 });
 var HomeController = function HomeController($scope) {
 
-  $scope.title = 'Home Page From Controller';
+  $scope.title = 'NG-WineList';
 
   $scope.aboutText = 'I am some about text';
 
@@ -233,7 +233,7 @@ var WineService = function WineService($http, PARSE) {
     this.name = obj.name;
     this.maker = obj.maker;
     this.photo = obj.photo;
-    this.hasTried = false;
+    this.info = obj.info;
   };
 
   this.addWine = function (obj) {

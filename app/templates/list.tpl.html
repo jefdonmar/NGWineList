@@ -2,6 +2,9 @@
 
 <ul>
   <li ng-repeat="wine in wines">
-    <a href="#/single/{{ wine.objectId }}">{{ wine.name }} from {{ wine.maker }}</a>
+    <img class="listView" src= "{{ wine.photo }}" >
+    <br>
+    <a class="wineInfo" href="#/single/{{ wine.objectId }}">{{ wine.name }} from {{ wine.maker }}
+    </a>
   </li>
 </ul>
